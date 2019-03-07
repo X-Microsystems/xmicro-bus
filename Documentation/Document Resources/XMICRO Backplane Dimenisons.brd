@@ -185,7 +185,7 @@
 <vertex x="153.51125" y="105.56875"/>
 <vertex x="153.51125" y="106.52125"/>
 </polygon>
-<text x="177.8" y="108.585" size="2.1844" layer="51" font="vector" align="bottom-center">2" TO CONNECTOR CENTER</text>
+<text x="177.8" y="107.315" size="2.1844" layer="51" font="vector" align="bottom-center">2" TO CONNECTOR CENTER</text>
 <polygon width="0.254" layer="51">
 <vertex x="112.395" y="88.9"/>
 <vertex x="113.665" y="91.44"/>
@@ -234,13 +234,13 @@
 <vertex x="105.56875" y="78.58125"/>
 </polygon>
 <rectangle x1="0" y1="38.57625" x2="203.2" y2="40.16375" layer="20"/>
-<wire x1="208.28" y1="42.70375" x2="208.28" y2="23.65375" width="0" layer="48" style="shortdash"/>
-<wire x1="208.28" y1="23.65375" x2="1.27" y2="23.65375" width="0" layer="48" style="shortdash"/>
+<wire x1="205.74" y1="42.70375" x2="205.74" y2="23.65375" width="0" layer="48" style="shortdash"/>
+<wire x1="205.74" y1="23.65375" x2="1.27" y2="23.65375" width="0" layer="48" style="shortdash"/>
 <wire x1="1.27" y1="23.65375" x2="1.27" y2="42.70375" width="0" layer="48" style="shortdash"/>
-<wire x1="1.27" y1="42.70375" x2="208.28" y2="42.70375" width="0" layer="48" style="shortdash"/>
-<text x="0.635" y="48.895" size="2.1844" layer="51" font="vector" align="center-left">CARD DIMENSIONS</text>
-<wire x1="43.18" y1="42.7101" x2="36.9951" y2="48.895" width="0.0635" layer="48"/>
-<wire x1="36.9951" y1="48.895" x2="30.48" y2="48.895" width="0.0635" layer="48"/>
+<wire x1="1.27" y1="42.70375" x2="205.74" y2="42.70375" width="0" layer="48" style="shortdash"/>
+<text x="0.635" y="47.625" size="2.1844" layer="51" font="vector" align="center-left">CARD DIMENSIONS</text>
+<wire x1="43.18" y1="42.7101" x2="38.2651" y2="47.625" width="0.0635" layer="48"/>
+<wire x1="38.2651" y1="47.625" x2="30.48" y2="47.625" width="0.0635" layer="48"/>
 <polygon width="0.0635" layer="51">
 <vertex x="43.18" y="42.7101"/>
 <vertex x="42.70375" y="43.82135"/>
@@ -256,7 +256,7 @@
 <vertex x="203.99375" y="105.56875"/>
 <vertex x="203.99375" y="106.52125"/>
 </polygon>
-<text x="205.74" y="111.125" size="2.1844" layer="51" font="vector" align="bottom-center">0.2"</text>
+<text x="204.47" y="111.125" size="2.1844" layer="51" font="vector" align="bottom-center">0.1"</text>
 <wire x1="115.8875" y1="101.2825" x2="111.125" y2="106.045" width="0.0635" layer="48"/>
 <wire x1="111.125" y1="106.045" x2="104.14" y2="106.045" width="0.0635" layer="48"/>
 <text x="102.235" y="106.045" size="2.1844" layer="51" font="vector" rot="R180" align="center-left">CARD SLOT 0</text>
