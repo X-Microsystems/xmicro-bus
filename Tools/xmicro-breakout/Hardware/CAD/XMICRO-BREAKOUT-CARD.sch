@@ -422,7 +422,7 @@
 <pin name="CLK@15" x="-25.4" y="20.32" length="middle" function="clk"/>
 <pin name="!FETCH@19" x="-25.4" y="15.24" length="middle" function="dot"/>
 <pin name="!HALT@17" x="-25.4" y="17.78" length="middle" function="dot"/>
-<pin name="CLKAUX@16" x="25.4" y="20.32" length="middle" function="clk" rot="R180"/>
+<pin name="!IOSEL@16" x="25.4" y="20.32" length="middle" function="dot" rot="R180"/>
 <pin name="!INT@51" x="-25.4" y="-25.4" length="middle" function="dot"/>
 <pin name="!WR@22" x="25.4" y="12.7" length="middle" function="dot" rot="R180"/>
 <pin name="D0@43" x="-25.4" y="-15.24" length="middle"/>
@@ -544,6 +544,7 @@
 <connect gate="G$1" pin="!HALT@17" pad="17"/>
 <connect gate="G$1" pin="!INH@11" pad="11"/>
 <connect gate="G$1" pin="!INT@51" pad="51"/>
+<connect gate="G$1" pin="!IOSEL@16" pad="16"/>
 <connect gate="G$1" pin="!IRQ0@53" pad="53"/>
 <connect gate="G$1" pin="!IRQ1@54" pad="54"/>
 <connect gate="G$1" pin="!IRQ2@55" pad="55"/>
@@ -585,7 +586,6 @@
 <connect gate="G$1" pin="A8@31" pad="31"/>
 <connect gate="G$1" pin="A9@32" pad="32"/>
 <connect gate="G$1" pin="CLK@15" pad="15"/>
-<connect gate="G$1" pin="CLKAUX@16" pad="16"/>
 <connect gate="G$1" pin="D0@43" pad="43"/>
 <connect gate="G$1" pin="D1@44" pad="44"/>
 <connect gate="G$1" pin="D2@45" pad="45"/>
@@ -613,6 +613,7 @@
 <connect gate="G$1" pin="!HALT@17" pad="17"/>
 <connect gate="G$1" pin="!INH@11" pad="11"/>
 <connect gate="G$1" pin="!INT@51" pad="51"/>
+<connect gate="G$1" pin="!IOSEL@16" pad="16"/>
 <connect gate="G$1" pin="!IRQ0@53" pad="53"/>
 <connect gate="G$1" pin="!IRQ1@54" pad="54"/>
 <connect gate="G$1" pin="!IRQ2@55" pad="55"/>
@@ -654,7 +655,6 @@
 <connect gate="G$1" pin="A8@31" pad="31"/>
 <connect gate="G$1" pin="A9@32" pad="32"/>
 <connect gate="G$1" pin="CLK@15" pad="15"/>
-<connect gate="G$1" pin="CLKAUX@16" pad="16"/>
 <connect gate="G$1" pin="D0@43" pad="43"/>
 <connect gate="G$1" pin="D1@44" pad="44"/>
 <connect gate="G$1" pin="D2@45" pad="45"/>
@@ -1307,11 +1307,11 @@
 <pinref part="J1" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="CLKAUX" class="0">
+<net name="!IOSEL" class="0">
 <segment>
 <wire x1="124.46" y1="121.92" x2="132.08" y2="121.92" width="0.1524" layer="91"/>
 <label x="132.08" y="121.92" size="1.016" layer="95" xref="yes"/>
-<pinref part="P1" gate="G$1" pin="CLKAUX@16"/>
+<pinref part="P1" gate="G$1" pin="!IOSEL@16"/>
 </segment>
 <segment>
 <wire x1="175.26" y1="132.08" x2="165.1" y2="132.08" width="0.1524" layer="91"/>

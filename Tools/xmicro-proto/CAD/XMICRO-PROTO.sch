@@ -322,10 +322,10 @@
 <wire x1="-20.32" y1="40.64" x2="20.32" y2="40.64" width="0.254" layer="94"/>
 <text x="-17.78" y="43.18" size="1.778" layer="95">&gt;NAME</text>
 <pin name="-12V@7" x="25.4" y="-40.64" length="middle" rot="R180"/>
-<pin name="CLK@15" x="-25.4" y="-38.1" length="middle" function="clk"/>
-<pin name="!FETCH@19" x="-25.4" y="-33.02" length="middle" function="dot"/>
-<pin name="!HALT@17" x="-25.4" y="-30.48" length="middle" function="dot"/>
-<pin name="CLKAUX@16" x="-25.4" y="-40.64" length="middle" function="clk"/>
+<pin name="CLK@15" x="-25.4" y="-45.72" length="middle" function="clk"/>
+<pin name="!FETCH@19" x="-25.4" y="-38.1" length="middle" function="dot"/>
+<pin name="!HALT@17" x="-25.4" y="-35.56" length="middle" function="dot"/>
+<pin name="!IO@16" x="-25.4" y="-22.86" length="middle" function="dot"/>
 <pin name="!INT@51" x="25.4" y="-7.62" length="middle" function="dot" rot="R180"/>
 <pin name="!WR@22" x="-25.4" y="-17.78" length="middle" function="dot"/>
 <pin name="D0@43" x="25.4" y="38.1" length="middle" rot="R180"/>
@@ -373,10 +373,10 @@
 <pin name="A19@42" x="-25.4" y="-10.16" length="middle"/>
 <pin name="!BUSACK@20" x="25.4" y="12.7" length="middle" function="dot" rot="R180"/>
 <pin name="!BUSRQ@10" x="25.4" y="15.24" length="middle" function="dot" rot="R180"/>
-<pin name="!WAIT@18" x="-25.4" y="-27.94" length="middle" function="dot"/>
+<pin name="!WAIT@18" x="-25.4" y="-33.02" length="middle" function="dot"/>
 <pin name="!CBR@12" x="25.4" y="-2.54" length="middle" function="dot" rot="R180"/>
 <pin name="!CINH@13" x="25.4" y="-5.08" length="middle" function="dot" rot="R180"/>
-<pin name="!RST@14" x="-25.4" y="-25.4" length="middle" function="dot"/>
+<pin name="!RST@14" x="-25.4" y="-30.48" length="middle" function="dot"/>
 <pin name="+5V@5,6" x="25.4" y="-35.56" length="middle" rot="R180"/>
 <pin name="+3.3V@2" x="25.4" y="-33.02" length="middle" rot="R180"/>
 </symbol>
@@ -398,6 +398,7 @@
 <connect gate="G$1" pin="!HALT@17" pad="17"/>
 <connect gate="G$1" pin="!INH@11" pad="11"/>
 <connect gate="G$1" pin="!INT@51" pad="51"/>
+<connect gate="G$1" pin="!IO@16" pad="16"/>
 <connect gate="G$1" pin="!IRQ0@53" pad="53"/>
 <connect gate="G$1" pin="!IRQ1@54" pad="54"/>
 <connect gate="G$1" pin="!IRQ2@55" pad="55"/>
@@ -438,7 +439,6 @@
 <connect gate="G$1" pin="A8@31" pad="31"/>
 <connect gate="G$1" pin="A9@32" pad="32"/>
 <connect gate="G$1" pin="CLK@15" pad="15"/>
-<connect gate="G$1" pin="CLKAUX@16" pad="16"/>
 <connect gate="G$1" pin="D0@43" pad="43"/>
 <connect gate="G$1" pin="D1@44" pad="44"/>
 <connect gate="G$1" pin="D2@45" pad="45"/>
@@ -464,6 +464,7 @@
 <connect gate="G$1" pin="!HALT@17" pad="17"/>
 <connect gate="G$1" pin="!INH@11" pad="11"/>
 <connect gate="G$1" pin="!INT@51" pad="51"/>
+<connect gate="G$1" pin="!IO@16" pad="16"/>
 <connect gate="G$1" pin="!IRQ0@53" pad="53"/>
 <connect gate="G$1" pin="!IRQ1@54" pad="54"/>
 <connect gate="G$1" pin="!IRQ2@55" pad="55"/>
@@ -504,7 +505,6 @@
 <connect gate="G$1" pin="A8@31" pad="31"/>
 <connect gate="G$1" pin="A9@32" pad="32"/>
 <connect gate="G$1" pin="CLK@15" pad="15"/>
-<connect gate="G$1" pin="CLKAUX@16" pad="16"/>
 <connect gate="G$1" pin="D0@43" pad="43"/>
 <connect gate="G$1" pin="D1@44" pad="44"/>
 <connect gate="G$1" pin="D2@45" pad="45"/>
@@ -951,43 +951,43 @@
 <net name="!RST" class="0">
 <segment>
 <pinref part="PC0" gate="G$1" pin="!RST@14"/>
-<wire x1="111.76" y1="78.74" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
-<label x="99.06" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="111.76" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
+<label x="99.06" y="73.66" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!WAIT" class="0">
 <segment>
 <pinref part="PC0" gate="G$1" pin="!WAIT@18"/>
-<wire x1="111.76" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
-<label x="99.06" y="76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="111.76" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
+<label x="99.06" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!HALT" class="0">
 <segment>
 <pinref part="PC0" gate="G$1" pin="!HALT@17"/>
-<wire x1="111.76" y1="73.66" x2="99.06" y2="73.66" width="0.1524" layer="91"/>
-<label x="99.06" y="73.66" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="111.76" y1="68.58" x2="99.06" y2="68.58" width="0.1524" layer="91"/>
+<label x="99.06" y="68.58" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="!FETCH" class="0">
 <segment>
 <pinref part="PC0" gate="G$1" pin="!FETCH@19"/>
-<wire x1="111.76" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
-<label x="99.06" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="111.76" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
+<label x="99.06" y="66.04" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="CLK" class="0">
 <segment>
 <pinref part="PC0" gate="G$1" pin="CLK@15"/>
-<wire x1="111.76" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
-<label x="99.06" y="66.04" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="111.76" y1="58.42" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
+<label x="99.06" y="58.42" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="CLKAUX" class="0">
+<net name="!IOSEL" class="0">
 <segment>
-<pinref part="PC0" gate="G$1" pin="CLKAUX@16"/>
-<wire x1="111.76" y1="63.5" x2="99.06" y2="63.5" width="0.1524" layer="91"/>
-<label x="99.06" y="63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="PC0" gate="G$1" pin="!IO@16"/>
+<label x="99.06" y="81.28" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="111.76" y1="81.28" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

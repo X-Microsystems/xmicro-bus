@@ -1269,7 +1269,7 @@ design rules under a new name.</description>
 <wire x1="21.59" y1="13.97" x2="21.59" y2="31.75" width="0.254" layer="1"/>
 <wire x1="21.59" y1="31.75" x2="20.32" y2="33.02" width="0.254" layer="1"/>
 </signal>
-<signal name="CLKAUX">
+<signal name="!IOSEL">
 <contactref element="P1" pad="16"/>
 <wire x1="30.48" y1="4.6101" x2="30.48" y2="8.255" width="0.254" layer="16"/>
 <wire x1="30.48" y1="8.255" x2="31.75" y2="9.525" width="0.254" layer="16"/>
