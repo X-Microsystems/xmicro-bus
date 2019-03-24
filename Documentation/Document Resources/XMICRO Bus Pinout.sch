@@ -326,7 +326,7 @@
 <pin name="CLK@15" x="-25.4" y="20.32" length="middle" function="clk"/>
 <pin name="!FETCH@19" x="-25.4" y="15.24" length="middle" function="dot"/>
 <pin name="!HALT@17" x="-25.4" y="17.78" length="middle" function="dot"/>
-<pin name="!IO@16" x="25.4" y="20.32" length="middle" function="dot" rot="R180"/>
+<pin name="!IOSEL@16" x="25.4" y="20.32" length="middle" function="dot" rot="R180"/>
 <pin name="!INT@51" x="-25.4" y="-25.4" length="middle" function="dot"/>
 <pin name="!WR@22" x="25.4" y="12.7" length="middle" function="dot" rot="R180"/>
 <pin name="D0@43" x="-25.4" y="-15.24" length="middle"/>
@@ -400,7 +400,7 @@
 <connect gate="G$1" pin="!HALT@17" pad="17"/>
 <connect gate="G$1" pin="!INH@11" pad="11"/>
 <connect gate="G$1" pin="!INT@51" pad="51"/>
-<connect gate="G$1" pin="!IO@16" pad="16"/>
+<connect gate="G$1" pin="!IOSEL@16" pad="16"/>
 <connect gate="G$1" pin="!IRQ0@53" pad="53"/>
 <connect gate="G$1" pin="!IRQ1@54" pad="54"/>
 <connect gate="G$1" pin="!IRQ2@55" pad="55"/>
@@ -469,7 +469,7 @@
 <connect gate="G$1" pin="!HALT@17" pad="17"/>
 <connect gate="G$1" pin="!INH@11" pad="11"/>
 <connect gate="G$1" pin="!INT@51" pad="51"/>
-<connect gate="G$1" pin="!IO@16" pad="16"/>
+<connect gate="G$1" pin="!IOSEL@16" pad="16"/>
 <connect gate="G$1" pin="!IRQ0@53" pad="53"/>
 <connect gate="G$1" pin="!IRQ1@54" pad="54"/>
 <connect gate="G$1" pin="!IRQ2@55" pad="55"/>
