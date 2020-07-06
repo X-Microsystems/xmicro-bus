@@ -271,13 +271,12 @@
 PAD</text>
 <text x="152.4" y="27.94" size="2.1844" layer="51" font="vector" align="center-left">PIN 1</text>
 <text x="35.56" y="20.32" size="1.6764" layer="51" font="vector" align="top-left">NOTES:
-1. All dimensions are in inches.
-2. Mounting holes should be plated through and tied to system GND
-3. Omit center mounting holes on full-size cards
-4. Card edge dimensions according to TE Connectivity 7-5530843-0
-5. I/O connectors may only be placed on the rear edge.
-6. Other edges require 0.05" component clearence.
-7. Pin 1 must be marked.</text>
+1. All dimensions are in inches
+2. Omit center mounting holes on full-size cards
+3. Card edge dimensions according to TE Connectivity 7-5530843-0
+4. I/O connectors may only be placed on the rear edge
+5. Other edges require 0.05" component clearence
+6. Pin 1 must be indicated</text>
 <wire x1="187.96" y1="27.94" x2="187.96" y2="43.18" width="0.0254" layer="51"/>
 <wire x1="187.96" y1="43.18" x2="187.96" y2="45.72" width="0.0254" layer="51"/>
 <wire x1="187.96" y1="43.18" x2="238.76" y2="43.18" width="0.0254" layer="51"/>

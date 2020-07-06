@@ -303,8 +303,8 @@
 <rectangle x1="-40.64" y1="-7.62" x2="40.64" y2="0" layer="30"/>
 <text x="-40.64" y="2.54" size="1.27" layer="21" font="vector">1</text>
 <text x="39.37" y="2.54" size="1.27" layer="21" font="vector">61</text>
-<text x="40.64" y="2.54" size="1.27" layer="22" font="vector" rot="MR0">62</text>
-<text x="-39.37" y="2.54" size="1.27" layer="22" font="vector" rot="MR0">2</text>
+<text x="41.275" y="2.54" size="1.27" layer="22" font="vector" rot="MR0">62</text>
+<text x="-40.005" y="2.54" size="1.27" layer="22" font="vector" rot="MR0">2</text>
 <polygon width="0.127" layer="21">
 <vertex x="-38.1" y="1.27"/>
 <vertex x="-36.83" y="3.81"/>
@@ -370,13 +370,13 @@
 <pin name="A17@40" x="25.4" y="-10.16" length="middle" rot="R180"/>
 <pin name="A16@39" x="-25.4" y="-10.16" length="middle"/>
 <pin name="+5VSB@8" x="25.4" y="30.48" length="middle" rot="R180"/>
-<pin name="!INH@11" x="-25.4" y="25.4" length="middle" function="dot"/>
+<pin name="NC@11" x="-25.4" y="25.4" length="middle" function="dot"/>
 <pin name="A19@42" x="25.4" y="-12.7" length="middle" rot="R180"/>
-<pin name="!BUSACK@20" x="25.4" y="15.24" length="middle" function="dot" rot="R180"/>
-<pin name="!BUSRQ@10" x="25.4" y="27.94" length="middle" function="dot" rot="R180"/>
+<pin name="!ACK@20" x="25.4" y="15.24" length="middle" function="dot" rot="R180"/>
+<pin name="NC@10" x="25.4" y="27.94" length="middle" function="dot" rot="R180"/>
 <pin name="!WAIT@18" x="25.4" y="17.78" length="middle" function="dot" rot="R180"/>
-<pin name="!CBR@12" x="25.4" y="25.4" length="middle" function="dot" rot="R180"/>
-<pin name="!CINH@13" x="-25.4" y="22.86" length="middle" function="dot"/>
+<pin name="!BRQ@12" x="25.4" y="25.4" length="middle" function="dot" rot="R180"/>
+<pin name="!INH@13" x="-25.4" y="22.86" length="middle" function="dot"/>
 <pin name="!RST@14" x="25.4" y="22.86" length="middle" function="dot" rot="R180"/>
 <pin name="+5V@6" x="25.4" y="33.02" length="middle" rot="R180"/>
 <pin name="GND@4" x="25.4" y="35.56" length="middle" rot="R180"/>
@@ -391,14 +391,12 @@
 <devices>
 <device name="-EDGE62F" package="EDGE62F">
 <connects>
-<connect gate="G$1" pin="!BUSACK@20" pad="20"/>
-<connect gate="G$1" pin="!BUSRQ@10" pad="10"/>
-<connect gate="G$1" pin="!CBR@12" pad="12"/>
-<connect gate="G$1" pin="!CINH@13" pad="13"/>
+<connect gate="G$1" pin="!ACK@20" pad="20"/>
+<connect gate="G$1" pin="!BRQ@12" pad="12"/>
 <connect gate="G$1" pin="!CSX@9" pad="9"/>
 <connect gate="G$1" pin="!FETCH@19" pad="19"/>
 <connect gate="G$1" pin="!HALT@17" pad="17"/>
-<connect gate="G$1" pin="!INH@11" pad="11"/>
+<connect gate="G$1" pin="!INH@13" pad="13"/>
 <connect gate="G$1" pin="!INT@51" pad="51"/>
 <connect gate="G$1" pin="!IOSEL@16" pad="16"/>
 <connect gate="G$1" pin="!IRQ0@53" pad="53"/>
@@ -453,6 +451,8 @@
 <connect gate="G$1" pin="GND@3" pad="3"/>
 <connect gate="G$1" pin="GND@4" pad="4"/>
 <connect gate="G$1" pin="GND@62" pad="62"/>
+<connect gate="G$1" pin="NC@10" pad="10"/>
+<connect gate="G$1" pin="NC@11" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -460,14 +460,12 @@
 </device>
 <device name="-EDGE62M" package="EDGE62M">
 <connects>
-<connect gate="G$1" pin="!BUSACK@20" pad="20"/>
-<connect gate="G$1" pin="!BUSRQ@10" pad="10"/>
-<connect gate="G$1" pin="!CBR@12" pad="12"/>
-<connect gate="G$1" pin="!CINH@13" pad="13"/>
+<connect gate="G$1" pin="!ACK@20" pad="20"/>
+<connect gate="G$1" pin="!BRQ@12" pad="12"/>
 <connect gate="G$1" pin="!CSX@9" pad="9"/>
 <connect gate="G$1" pin="!FETCH@19" pad="19"/>
 <connect gate="G$1" pin="!HALT@17" pad="17"/>
-<connect gate="G$1" pin="!INH@11" pad="11"/>
+<connect gate="G$1" pin="!INH@13" pad="13"/>
 <connect gate="G$1" pin="!INT@51" pad="51"/>
 <connect gate="G$1" pin="!IOSEL@16" pad="16"/>
 <connect gate="G$1" pin="!IRQ0@53" pad="53"/>
@@ -522,6 +520,8 @@
 <connect gate="G$1" pin="GND@3" pad="3"/>
 <connect gate="G$1" pin="GND@4" pad="4"/>
 <connect gate="G$1" pin="GND@62" pad="62"/>
+<connect gate="G$1" pin="NC@10" pad="10"/>
+<connect gate="G$1" pin="NC@11" pad="11"/>
 </connects>
 <technologies>
 <technology name=""/>
