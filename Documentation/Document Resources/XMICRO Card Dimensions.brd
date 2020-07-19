@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="no" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24,13 +24,13 @@
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -51,7 +51,7 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
@@ -95,6 +95,8 @@
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="117" name="Temp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="119" name="bComponents" color="7" fill="6" visible="no" active="yes"/>
+<layer number="120" name="tComponents" color="7" fill="3" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -160,7 +162,6 @@
 <wire x1="238.76" y1="25.4" x2="238.76" y2="127" width="0.0254" layer="20"/>
 <wire x1="35.56" y1="127" x2="35.56" y2="25.4" width="0.0254" layer="20"/>
 <wire x1="238.76" y1="127" x2="35.56" y2="127" width="0.0254" layer="20"/>
-<text x="137.16" y="76.2" size="3.81" layer="51" font="vector" align="center">COMPONENT SIDE</text>
 <wire x1="243.84" y1="127" x2="246.38" y2="127" width="0.0254" layer="51"/>
 <wire x1="246.38" y1="127" x2="248.92" y2="127" width="0.0254" layer="51"/>
 <wire x1="246.38" y1="127" x2="246.38" y2="25.4" width="0.0254" layer="51"/>
@@ -272,11 +273,7 @@ PAD</text>
 <text x="152.4" y="27.94" size="2.1844" layer="51" font="vector" align="center-left">PIN 1</text>
 <text x="35.56" y="20.32" size="1.6764" layer="51" font="vector" align="top-left">NOTES:
 1. All dimensions are in inches
-2. Omit center mounting holes on full-size cards
-3. Card edge dimensions according to TE Connectivity 7-5530843-0
-4. I/O connectors may only be placed on the rear edge
-5. Other edges require 0.05" component clearence
-6. Pin 1 must be indicated</text>
+2. Omit center mounting holes on full-size cards</text>
 <wire x1="187.96" y1="27.94" x2="187.96" y2="43.18" width="0.0254" layer="51"/>
 <wire x1="187.96" y1="43.18" x2="187.96" y2="45.72" width="0.0254" layer="51"/>
 <wire x1="187.96" y1="43.18" x2="238.76" y2="43.18" width="0.0254" layer="51"/>
@@ -439,6 +436,22 @@ SURFACE OF CHASSIS</text>
 <rectangle x1="220.1545" y1="19.4056" x2="221.8055" y2="25.3746" layer="1"/>
 <rectangle x1="222.6945" y1="19.4056" x2="224.3455" y2="25.3746" layer="1"/>
 <rectangle x1="225.2345" y1="19.4056" x2="226.8855" y2="25.3746" layer="1"/>
+<wire x1="144.4625" y1="119.6975" x2="146.685" y2="117.475" width="0.0254" layer="51"/>
+<wire x1="146.685" y1="117.475" x2="151.13" y2="117.475" width="0.0254" layer="51"/>
+<text x="153.035" y="117.475" size="1.6764" layer="51" font="vector" align="center-left">NOTE 2</text>
+<polygon width="0.0254" layer="51">
+<vertex x="144.4625" y="119.6975"/>
+<vertex x="144.93875" y="118.58625"/>
+<vertex x="145.57375" y="119.22125"/>
+</polygon>
+<wire x1="144.4625" y1="32.7025" x2="146.685" y2="34.925" width="0.0254" layer="51"/>
+<wire x1="146.685" y1="34.925" x2="151.13" y2="34.925" width="0.0254" layer="51"/>
+<text x="153.035" y="34.925" size="1.6764" layer="51" font="vector" align="center-left">NOTE 2</text>
+<polygon width="0.0254" layer="51">
+<vertex x="144.4625" y="32.7025"/>
+<vertex x="144.93875" y="33.81375"/>
+<vertex x="145.57375" y="33.17875"/>
+</polygon>
 </plain>
 <libraries>
 </libraries>
