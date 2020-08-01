@@ -1,2 +1,2 @@
-Diagrams created using Timing Editor
-http://timingeditor.sourceforge.net/
+Diagrams created using Wavedrom
+https://wavedrom.com/

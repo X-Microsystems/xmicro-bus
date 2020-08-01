@@ -1,0 +1,18 @@
+BRQ Normal
+
+{signal: [
+  {name: 'A<19..0>, <o>IOSEL</o>, D<7..0>, <o>RD</o>, <o>WR</o>', wave: '7.z3..z7.' , data: ['Primary', 'Secondary', 'Primary']},
+  {},
+  {name: '<o>BRQ</o>', wave: 'u0....u..'},
+  {name: '<o>ACK</o>', wave: 'u.0....u.'},
+]}
+
+
+BRQ Interrupted
+
+{signal: [
+  {name: 'A<19..0>, <o>IOSEL</o>, D<7..0>, <o>RD</o>, <o>WR</o>', wave: '7.z3.7|.z3.z7.' , data: ['Primary', 'Secondary', 'Primary', 'Secondary', 'Primary']},
+  {},
+  {name: '<o>BRQ</o>', wave: 'u0....|....u..'},
+  {name: '<o>ACK</o>', wave: 'u.0..u|0....u.'},
+]}

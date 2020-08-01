@@ -1,0 +1,19 @@
+{signal: [
+  {name:'A<19..0>',	wave: 'x=....x..'},
+  {name:'<o>IOSEL</o>',	wave: '1.=...x..'},
+  {name:'<o>RD</o>',	wave: '1........'},
+  {name:'<o>WR</o>',	wave: '1..0.1...'},
+  {name:'D<7..0>',	wave: 'x...=..x.'},
+],
+   head:{ text:'Write Operation' }
+}
+
+
+{signal: [
+  {name:'A<19..0>, <o>IOSEL</o>',	wave: 'x=....x..'},
+  {name:'<o>CSX</o>',	wave: '1.=...x..'},
+  {name:'<o>RD</o>',	wave: '1........'},
+  {name:'<o>WR</o>',	wave: '1..0.1...'},
+  {name:'D<7..0>',	wave: 'x...=..x.'},
+],
+}
