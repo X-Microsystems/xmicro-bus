@@ -1,8 +1,0 @@
-$00 - Reserved
-$01 - XMICRO-6502
-$02 - XMICRO-MEMORY
-$03 - XMICRO-7SEG
-$04 - XMICRO-SERIAL
-$05 - XMICRO-VDP
-
-$FF - Reserved
