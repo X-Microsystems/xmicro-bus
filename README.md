@@ -10,6 +10,8 @@ The [XMICRO Bus Specification](Documentation/XMICRO%20Bus%20Specification.pdf) i
 * [XMICRO-SERIAL](https://github.com/X-Microsystems/xmicro-serial): Dual RS232 and PS/2 Communications Card
 * [XMICRO-VDP](https://github.com/X-Microsystems/xmicro-vdp): Yamaha V9958 Video Card
 
+At this time, creating the specification is the top priority. Once this specification document is complete, all hardware projects will be updated to meet it. Work can then continue on other hardware and software projects.
+
 ![The XMICRO Family](Images/Family-1.jpg)
 ![](Images/System-1.jpg)
 ![](Images/System-3.jpg)
