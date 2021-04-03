@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -40,7 +40,8 @@
 <description>RD Operation</description>
 <plain>
 <text x="-5.08" y="-2.54" size="2.54" layer="95" align="center-right">A&lt;19..0&gt;,
-!IOSEL!, !CSX!</text>
+!IOSEL!, !CSX!,
+!INH!</text>
 <text x="-5.08" y="-17.78" size="2.54" layer="95" align="center-right">!RD!</text>
 <text x="-5.08" y="-33.02" size="2.54" layer="95" align="center-right">D&lt;7..0&gt;</text>
 <wire x1="0" y1="-15.24" x2="25.4" y2="-15.24" width="0.1016" layer="110"/>
@@ -246,7 +247,8 @@
 <description>WR Operation</description>
 <plain>
 <text x="-5.08" y="-2.54" size="2.54" layer="95" align="center-right">A&lt;19..0&gt;,
-!IOSEL!, !CSX!</text>
+!IOSEL!, !CSX!,
+!INH!</text>
 <text x="-5.08" y="-17.78" size="2.54" layer="95" align="center-right">!WR!</text>
 <text x="-5.08" y="-33.02" size="2.54" layer="95" align="center-right">D&lt;7..0&gt;</text>
 <wire x1="0" y1="-15.24" x2="25.4" y2="-15.24" width="0.1016" layer="110"/>
