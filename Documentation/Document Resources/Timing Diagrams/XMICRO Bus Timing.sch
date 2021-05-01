@@ -461,26 +461,26 @@
 <wire x1="7.62" y1="-15.24" x2="10.16" y2="-20.32" width="0.1016" layer="110"/>
 <wire x1="10.16" y1="-20.32" x2="63.5" y2="-20.32" width="0.1016" layer="110"/>
 <wire x1="63.5" y1="-20.32" x2="66.04" y2="-15.24" width="0.1016" layer="110"/>
-<wire x1="66.04" y1="-15.24" x2="101.6" y2="-15.24" width="0.1016" layer="110"/>
+<wire x1="66.04" y1="-15.24" x2="99.06" y2="-15.24" width="0.1016" layer="110"/>
 <wire x1="0" y1="0" x2="22.86" y2="0" width="0.1016" layer="110"/>
 <wire x1="0" y1="-30.48" x2="22.86" y2="-30.48" width="0.1016" layer="110"/>
 <wire x1="22.86" y1="-30.48" x2="25.4" y2="-35.56" width="0.1016" layer="110"/>
 <wire x1="25.4" y1="-35.56" x2="73.66" y2="-35.56" width="0.1016" layer="110"/>
 <wire x1="73.66" y1="-35.56" x2="76.2" y2="-30.48" width="0.1016" layer="110"/>
-<wire x1="76.2" y1="-30.48" x2="101.6" y2="-30.48" width="0.1016" layer="110"/>
+<wire x1="76.2" y1="-30.48" x2="99.06" y2="-30.48" width="0.1016" layer="110"/>
 <wire x1="22.86" y1="-5.08" x2="0" y2="-5.08" width="0.1016" layer="110"/>
 <wire x1="27.94" y1="-2.54" x2="35.56" y2="-2.54" width="0.1016" layer="110"/>
 <wire x1="27.94" y1="-2.54" x2="22.86" y2="0" width="0.1016" layer="110" curve="-53.130102"/>
 <wire x1="27.94" y1="-2.54" x2="22.86" y2="-5.08" width="0.1016" layer="110" curve="53.130102"/>
 <wire x1="35.56" y1="-2.54" x2="36.83" y2="0" width="0.1016" layer="110"/>
 <wire x1="35.56" y1="-2.54" x2="36.83" y2="-5.08" width="0.1016" layer="110"/>
-<text x="12.7" y="-2.54" size="1.778" layer="110" align="center">PRIMARY</text>
-<text x="88.9" y="-2.54" size="1.778" layer="110" align="center">PRIMARY</text>
+<text x="15.24" y="-2.54" size="1.778" layer="110" align="center">PRIMARY</text>
+<text x="86.36" y="-2.54" size="1.778" layer="110" align="center">PRIMARY</text>
 <text x="50.8" y="-2.54" size="1.778" layer="110" align="center">SECONDARY</text>
 <wire x1="36.83" y1="0" x2="63.5" y2="0" width="0.1016" layer="110"/>
-<wire x1="77.47" y1="-5.08" x2="101.6" y2="-5.08" width="0.1016" layer="110"/>
+<wire x1="77.47" y1="-5.08" x2="99.06" y2="-5.08" width="0.1016" layer="110"/>
 <wire x1="63.5" y1="-5.08" x2="36.83" y2="-5.08" width="0.1016" layer="110"/>
-<wire x1="101.6" y1="0" x2="77.47" y2="0" width="0.1016" layer="110"/>
+<wire x1="99.06" y1="0" x2="77.47" y2="0" width="0.1016" layer="110"/>
 <wire x1="68.58" y1="-2.54" x2="76.2" y2="-2.54" width="0.1016" layer="110"/>
 <wire x1="68.58" y1="-2.54" x2="63.5" y2="0" width="0.1016" layer="110" curve="-53.130102"/>
 <wire x1="68.58" y1="-2.54" x2="63.5" y2="-5.08" width="0.1016" layer="110" curve="53.130102"/>
@@ -492,6 +492,13 @@
 <dimension x1="35.306" y1="-3.556" x2="25.654" y2="-34.544" x3="25.654" y3="-34.544" layer="104" dtype="leader"/>
 <dimension x1="75.692" y1="-3.302" x2="66.548" y2="-14.224" x3="66.548" y3="-14.224" layer="104" dtype="leader"/>
 <dimension x1="21.844" y1="-29.718" x2="10.668" y2="-21.082" x3="10.668" y3="-21.082" layer="104" dtype="leader"/>
+<text x="7.62" y="-38.1" size="1.778" layer="104" align="top-center">1</text>
+<text x="22.86" y="-38.1" size="1.778" layer="104" align="top-center">2</text>
+<text x="35.56" y="-38.1" size="1.778" layer="104" align="top-center">3</text>
+<text x="63.5" y="-38.1" size="1.778" layer="104" align="top-center">4</text>
+<text x="76.2" y="-38.1" size="1.778" layer="104" align="top-center">5</text>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-36.83" width="0.1016" layer="102" style="shortdash"/>
+<wire x1="35.56" y1="1.27" x2="35.56" y2="-36.83" width="0.1016" layer="102" style="shortdash"/>
 </plain>
 <instances>
 </instances>
