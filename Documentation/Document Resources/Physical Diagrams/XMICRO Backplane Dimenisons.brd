@@ -157,21 +157,18 @@
 </layers>
 <board>
 <plain>
-<wire x1="203.2" y1="41.275" x2="203.2" y2="97.79" width="0.1016" layer="51"/>
-<wire x1="205.74" y1="97.79" x2="205.74" y2="94.615" width="0.1016" layer="51" style="longdash"/>
+<wire x1="203.2" y1="41.275" x2="203.2" y2="94.615" width="0.1016" layer="51"/>
 <text x="1.27" y="5.715" size="1.778" layer="51" align="top-left">NOTES:
-1. All dimensions are specified in inches</text>
-<wire x1="205.74" y1="94.615" x2="205.74" y2="41.275" width="0.1016" layer="51" style="longdash"/>
-<wire x1="205.74" y1="52.07" x2="201.295" y2="56.515" width="0.1016" layer="51"/>
-<wire x1="201.295" y1="56.515" x2="193.04" y2="56.515" width="0.1016" layer="51"/>
+1. All dimensions are specified in inches
+2. Minimum chassis clearance 0.0" to rear edge</text>
+<wire x1="203.2" y1="94.615" x2="203.2" y2="97.79" width="0.1016" layer="51"/>
 <wire x1="203.2" y1="71.12" x2="198.755" y2="75.565" width="0.1016" layer="51"/>
 <wire x1="198.755" y1="75.565" x2="193.04" y2="75.565" width="0.1016" layer="51"/>
-<text x="191.77" y="56.515" size="2.1844" layer="51" rot="R180" align="center-left">INSIDE SURFACE OF CHASSIS</text>
 <text x="191.77" y="75.565" size="2.1844" layer="51" rot="R180" align="center-left">BACKPLANE REAR PCB EDGE</text>
 <wire x1="152.4" y1="97.155" x2="152.4" y2="94.615" width="0.1016" layer="51"/>
 <wire x1="152.4" y1="94.615" x2="152.4" y2="92.075" width="0.1016" layer="51"/>
 <wire x1="152.4" y1="94.615" x2="175.26" y2="94.615" width="0.1016" layer="51"/>
-<wire x1="180.34" y1="94.615" x2="205.74" y2="94.615" width="0.1016" layer="51"/>
+<wire x1="180.34" y1="94.615" x2="203.2" y2="94.615" width="0.1016" layer="51"/>
 <polygon width="0.1016" layer="51">
 <vertex x="203.2" y="94.615"/>
 <vertex x="202.08875" y="95.09125"/>
@@ -205,11 +202,6 @@
 <vertex x="115.57" y="19.685"/>
 </polygon>
 <polygon width="0.1016" layer="51">
-<vertex x="205.74" y="52.07"/>
-<vertex x="205.26375" y="53.18125"/>
-<vertex x="204.62875" y="52.54625"/>
-</polygon>
-<polygon width="0.1016" layer="51">
 <vertex x="203.2" y="71.12"/>
 <vertex x="202.72375" y="72.23125"/>
 <vertex x="202.08875" y="71.59625"/>
@@ -232,10 +224,10 @@
 <vertex x="105.56875" y="67.15125"/>
 </polygon>
 <rectangle x1="0" y1="27.14625" x2="203.2" y2="28.73375" layer="51"/>
-<wire x1="205.74" y1="31.27375" x2="205.74" y2="12.22375" width="0.1016" layer="51" style="longdash"/>
-<wire x1="205.74" y1="12.22375" x2="1.27" y2="12.22375" width="0.1016" layer="51" style="longdash"/>
-<wire x1="1.27" y1="12.22375" x2="1.27" y2="31.27375" width="0.1016" layer="51" style="longdash"/>
-<wire x1="1.27" y1="31.27375" x2="205.74" y2="31.27375" width="0.1016" layer="51" style="longdash"/>
+<wire x1="203.2" y1="31.27375" x2="203.2" y2="12.22375" width="0.1016" layer="51" style="longdash"/>
+<wire x1="203.2" y1="12.22375" x2="0" y2="12.22375" width="0.1016" layer="51" style="longdash"/>
+<wire x1="0" y1="12.22375" x2="0" y2="31.27375" width="0.1016" layer="51" style="longdash"/>
+<wire x1="0" y1="31.27375" x2="203.2" y2="31.27375" width="0.1016" layer="51" style="longdash"/>
 <text x="44.45" y="36.195" size="2.1844" layer="51" rot="R180" align="center-left">CARD MAXIMUM DIMENSIONS</text>
 <wire x1="58.42" y1="31.2801" x2="53.5051" y2="36.195" width="0.1016" layer="51"/>
 <wire x1="53.5051" y1="36.195" x2="45.72" y2="36.195" width="0.1016" layer="51"/>
@@ -243,16 +235,6 @@
 <vertex x="58.42" y="31.2801"/>
 <vertex x="57.94375" y="32.39135"/>
 <vertex x="57.30875" y="31.75635"/>
-</polygon>
-<polygon width="0.1016" layer="51">
-<vertex x="205.74" y="94.615"/>
-<vertex x="204.94625" y="95.09125"/>
-<vertex x="204.94625" y="94.13875"/>
-</polygon>
-<polygon width="0.1016" layer="51">
-<vertex x="203.2" y="94.615"/>
-<vertex x="203.99375" y="94.13875"/>
-<vertex x="203.99375" y="95.09125"/>
 </polygon>
 <wire x1="115.8875" y1="89.8525" x2="111.125" y2="94.615" width="0.1016" layer="51"/>
 <wire x1="111.125" y1="94.615" x2="104.14" y2="94.615" width="0.1016" layer="51"/>
@@ -650,7 +632,6 @@
 <wire x1="193.04" y1="7.95655" x2="192.405" y2="7.95655" width="0.1016" layer="51"/>
 <wire x1="152.146" y1="8.89" x2="152.654" y2="8.89" width="0.1016" layer="23"/>
 <wire x1="152.4" y1="8.636" x2="152.4" y2="9.144" width="0.1016" layer="23"/>
-<text x="204.47" y="100.33" size="2.1844" layer="51" align="center">0.1"</text>
 </plain>
 <libraries>
 </libraries>
