@@ -1,0 +1,5 @@
+>8 slot interrupt vectoring
+The backplane is supposed to be able to "override" $XFD to provide an interrupt vector. This would necessitate all cards keep their output buffers disabled on that address which could make them more complex. Not worth it.
+Probablhy best to just say vectored interrupts are only available for slot 0-7 and above that it's either a summary interrupt or nothing.
+
+Reserved addresses maybe should also be reduced if they aren't used.

@@ -1,0 +1,12 @@
+Board Version Numbers
+V1.0A
+Version number is Major.Minor
+Trailing letter indicates that the board is a prototype of this version, and which prototype revision it is.
+
+P1.0
+P is a retroactive designation for all Gen1 prototypes (Any datecodes below 2000)
+
+Datecodes
+2312
+YYWW - 2023, week 12
+

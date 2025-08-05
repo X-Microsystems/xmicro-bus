@@ -275,10 +275,6 @@
 <text x="233.68" y="111.76" size="2.1844" layer="51" align="top-center">0.25"
 PAD</text>
 <text x="152.4" y="27.94" size="2.1844" layer="51" align="center-left">PIN 1</text>
-<text x="35.56" y="20.32" size="1.6764" layer="51" align="top-left">NOTES:
-1. All dimensions are specified in inches
-2. Omit center mounting holes on full-size cards
-3. Minimum chassis clearance 0.0" to any edge</text>
 <wire x1="187.96" y1="27.94" x2="187.96" y2="43.18" width="0.1016" layer="51"/>
 <wire x1="187.96" y1="43.18" x2="187.96" y2="45.72" width="0.1016" layer="51"/>
 <wire x1="187.96" y1="43.18" x2="210.82" y2="43.18" width="0.1016" layer="51"/>
@@ -407,22 +403,6 @@ TOP COMPONENT HEIGHT</text>
 <rectangle x1="220.1545" y1="19.4056" x2="221.8055" y2="25.3746" layer="1"/>
 <rectangle x1="222.6945" y1="19.4056" x2="224.3455" y2="25.3746" layer="1"/>
 <rectangle x1="225.2345" y1="19.4056" x2="226.8855" y2="25.3746" layer="1"/>
-<wire x1="144.4625" y1="119.6975" x2="146.685" y2="117.475" width="0.1016" layer="51"/>
-<wire x1="146.685" y1="117.475" x2="151.13" y2="117.475" width="0.1016" layer="51"/>
-<text x="153.035" y="117.475" size="1.6764" layer="51" align="center-left">NOTE 2</text>
-<polygon width="0.1016" layer="51">
-<vertex x="144.4625" y="119.6975"/>
-<vertex x="144.93875" y="118.58625"/>
-<vertex x="145.57375" y="119.22125"/>
-</polygon>
-<wire x1="144.4625" y1="32.7025" x2="146.685" y2="34.925" width="0.1016" layer="51"/>
-<wire x1="146.685" y1="34.925" x2="151.13" y2="34.925" width="0.1016" layer="51"/>
-<text x="153.035" y="34.925" size="1.6764" layer="51" align="center-left">NOTE 2</text>
-<polygon width="0.1016" layer="51">
-<vertex x="144.4625" y="32.7025"/>
-<vertex x="144.93875" y="33.81375"/>
-<vertex x="145.57375" y="33.17875"/>
-</polygon>
 <wire x1="238.76" y1="76.2" x2="234.315" y2="80.645" width="0.1016" layer="51"/>
 <wire x1="234.315" y1="80.645" x2="228.6" y2="80.645" width="0.1016" layer="51"/>
 <text x="227.33" y="80.645" size="2.1844" layer="51" rot="R180" align="center-left">CARD REAR PCB EDGE</text>
@@ -651,10 +631,6 @@ design rules under a new name.</description>
 <signal name="GND" class="1">
 <via x="233.68" y="30.48" extent="1-16" drill="4.064" diameter="6.35" alwaysstop="yes"/>
 <via x="233.68" y="121.92" extent="1-16" drill="4.064" diameter="6.35" alwaysstop="yes"/>
-<via x="40.64" y="30.48" extent="1-16" drill="4.064" diameter="6.35" alwaysstop="yes"/>
-<via x="40.64" y="121.92" extent="1-16" drill="4.064" diameter="6.35" alwaysstop="yes"/>
-<via x="142.24" y="30.48" extent="1-16" drill="4.064" diameter="6.35" alwaysstop="yes"/>
-<via x="142.24" y="121.92" extent="1-16" drill="4.064" diameter="6.35" alwaysstop="yes"/>
 <wire x1="142.24" y1="30.48" x2="233.68" y2="30.48" width="0" layer="19" extent="1-1"/>
 <wire x1="142.24" y1="121.92" x2="142.24" y2="30.48" width="0" layer="19" extent="1-1"/>
 <wire x1="233.68" y1="121.92" x2="233.68" y2="30.48" width="0" layer="19" extent="1-1"/>
